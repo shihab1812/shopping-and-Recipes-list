@@ -11,6 +11,7 @@ import { ReciepeComponent } from './reciepe/reciepe.component';
 import { ReceipeListComponent } from './reciepe/receipe-list/receipe-list.component';
 import { ReceipeItemComponent } from './reciepe/receipe-list/receipe-item/receipe-item.component';
 import { ReceipeDetailComponent } from './reciepe/receipe-detail/receipe-detail.component';
+import { CreateReciepeComponent } from './reciepe/create-reciepe/create-reciepe.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { ReceipeDetailComponent } from './reciepe/receipe-detail/receipe-detail.
     ReciepeComponent,
     ReceipeListComponent,
     ReceipeItemComponent,
-    ReceipeDetailComponent
+    ReceipeDetailComponent,
+    CreateReciepeComponent
 
   ],
   imports: [

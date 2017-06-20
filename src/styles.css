@@ -1,4 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Rset CSS*/
+html{
+    height: 100%;
+    width: 100%;
+}
+.body{
+    position: relative;
+}
 .display-inherit{
     display: inherit;
+}
+.pos-abs{
+    position: absolute;
+}
+.well.well-blue-shade{
+    background: #f3f3f6;
 }

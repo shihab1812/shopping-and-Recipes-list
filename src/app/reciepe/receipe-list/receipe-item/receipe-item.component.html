@@ -1,3 +1,19 @@
-<p>
-  receipe-item works!
-</p>
+<ul class="list-group">
+  <a href="#" class="list-group-item clearfix" *ngFor="let recepie of receipes">
+    <div class="col-md-3">
+      <img [src]="recepie.imagePath" alt="" class="img-responsive" style="max-height: 100%;width: 100%">
+    </div>
+    <div class="col-md-9">
+      <p class="lead">
+        {{ recepie.name }}
+      </p>
+      <p class="text-muted">
+        <small>
+            {{ recepie.description }}
+        </small>
+
+      </p>
+
+    </div>
+  </a>
+</ul>
